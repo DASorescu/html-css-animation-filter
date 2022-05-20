@@ -91,23 +91,29 @@
     
 }
 
+.ex-8-img {
+    width: 500px;
+    transition: filter 3s ease-in , border-radius 3s linear;
+}
 
-
-
-
-
-
-
-
-
-
-
+.ex-8-img:hover{
+    border-radius: 30px;
+    filter: saturate(0.9) grayscale(0.4);
+}
 
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+
+
+
+
+
+
+
+
 .ex-10-icon {
     font-size: 60px;
 }
