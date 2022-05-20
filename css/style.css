@@ -105,9 +105,14 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: border-radius 3s linear, filter 3s ease-in, transform 3s ease-out;
 }
 
-
+.ex-9-img:hover{
+    border-radius: 20px;
+    filter: hue-rotate(90deg) saturate(0.5);
+    transform: scale(1.5);
+}
 
 
 
